@@ -17,6 +17,15 @@ input {
     right: 5px;
 }
 
+.back {
+    position: relative;
+    top: 10px;
+}
+
+.title {
+    padding-right: 10px;
+}
+
 .rightAlign {
     float: right;
 }
