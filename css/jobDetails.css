@@ -33,4 +33,16 @@ input {
 .vl {
     border-right: 1px solid black;
     padding-right: 5px;
-  }
+}
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
