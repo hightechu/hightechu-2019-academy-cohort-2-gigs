@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    display: inline;
+}
+a {
+    display: inline;
+    position: relative;
+    bottom: 3px;
+}
+
+input {
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+.back {
+    position: relative;
+    top: 10px;
+}
+
+.title {
+    padding-right: 10px;
+}
+
+.rightAlign {
+    float: right;
+}
+
+.vl {
+    border-right: 1px solid black;
+    padding-right: 5px;
+  }
