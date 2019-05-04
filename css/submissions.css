@@ -76,6 +76,8 @@ h2 {
 .profilepic-left {
     width: 200px;
     height: 198px;
+    float: left;
+    position: relative;
     border: 1px solid black;
 }
 
@@ -91,26 +93,41 @@ h2 {
 .profilename-left {
     display: inline;
     position: relative;
-    bottom: 170px;
+    left: 5px;
+    top: 2px;
 }
 
 .profilename-right {
     display: inline;
     position: relative;
     left: 205px;
-    top: 5px;
+    top: 2px;
 }
 
 .profileinfo-left {
     display: inline;
     position: relative;
-    bottom: 140px;
-    right: 67px;
+    top: 25px;
+    left: 5px;
 }
 
 .profileinfo-right {
     display: inline;
     position: relative;
-    top: 30px;
-    left: 140px;
+    top: 23px;
+    left: 205px;
+}
+
+.profilecontact-left {
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+.profilecontact-right {
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 205px;
 }
