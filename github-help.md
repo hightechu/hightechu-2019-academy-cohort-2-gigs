@@ -1,17 +1,19 @@
 ## Branching
-see all the branches0
+### see all the branches0
 ```git branch```
 
-switch to your brANCH
+###switch to your brANCH
 ```git checkout ruben```
+
 ## Pushing your changes to the repo
-Add files
+### Add files
 
 ```git add . ```
-Commit files
+
+### Commit files
 ```git commit -m "Your message here"```
 
-Push 
+### Push 
 
 ```git push```
 
