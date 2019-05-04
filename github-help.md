@@ -2,7 +2,7 @@
 ### see all the branches0
 ```git branch```
 
-###switch to your brANCH
+### switch to your brANCH
 ```git checkout ruben```
 
 ## Pushing your changes to the repo
