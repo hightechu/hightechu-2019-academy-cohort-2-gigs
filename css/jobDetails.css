@@ -40,9 +40,7 @@ input {
 }
 
 .border {
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+    border: 2px solid black;
 }
 
 .jobpicture {
@@ -50,4 +48,15 @@ input {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+}
+
+.descriptionbox {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
 }
