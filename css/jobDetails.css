@@ -1,0 +1,53 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    display: inline;
+}
+a {
+    display: inline;
+    position: relative;
+    bottom: 3px;
+}
+
+input {
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+.back {
+    position: relative;
+    top: 10px;
+}
+
+.jobtitle {
+    text-align: center
+}
+
+.title {
+    padding-right: 10px;
+}
+
+.rightAlign {
+    float: right;
+}
+
+.vl {
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.jobpicture {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
