@@ -22,6 +22,10 @@ input {
     top: 10px;
 }
 
+.jobtitle {
+    text-align: center
+}
+
 .title {
     padding-right: 10px;
 }
@@ -41,8 +45,9 @@ input {
     border-color: black;
 }
 
-.center {
-    display: block; 
-    margin-left: auto; 
+.jobpicture {
+    width: 400px;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
