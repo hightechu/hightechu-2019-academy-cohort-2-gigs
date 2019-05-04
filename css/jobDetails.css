@@ -1,5 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #EAF4F9;
 }
 
 h1 {
@@ -28,6 +29,8 @@ input {
 
 .title {
     padding-right: 10px;
+    color: #000; 
+    text-decoration: none;
 }
 
 .rightAlign {
@@ -85,4 +88,14 @@ input {
     top: -620px;
     position: relative;
     padding-top: 5px;
+}
+
+.name {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.name p {
+    float: left;
 }
