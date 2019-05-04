@@ -1,5 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -43,15 +43,16 @@ input {
     border: 2px solid black;
 }
 
-.jobpicture {
+.jobPicture {
     width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
+    border-bottom: 0px;
 }
 
-.descriptionbox {
+.descriptionBox {
     border: 1px solid black;
     display: block;
     margin-left: auto;
@@ -59,4 +60,29 @@ input {
     text-align: center;
     width: 400px;
     height: 400px;
+}
+
+.profilePicture {
+    position: relative;
+    display: block;
+    margin-left: 422px;
+    margin-right: auto;
+    width: 200px;
+    top: -603px;
+    border: 1px solid black;
+    border-right: 0px;
+}
+
+.profileDescription {
+    border: 1px solid black;
+    border-top: 0px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 422px;
+    margin-right: auto;
+    top: -620px;
+    position: relative;
+    padding-top: 5px;
 }
