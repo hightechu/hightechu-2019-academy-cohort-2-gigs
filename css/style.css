@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    display: inline;
+    padding: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+.header {
+    background-color: #C0C0C0;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 500px;
+  }
+
+#profile {
+    width: 2%;
+    height: 2%;
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+#searchbar {
+    float: right;
+    position: relative;
+    right: 6px;
+    top: 8px;
+}
+
+#submitbutton {
+    float: right;
+    position: relative;
+    right: 6px;
+    top: 8px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.rectangle {
+    width:500px;
+    height:200px;
+    border:1px solid #000;"
+}
