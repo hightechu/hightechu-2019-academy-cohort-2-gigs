@@ -22,6 +22,10 @@ input {
     top: 10px;
 }
 
+.jobtitle {
+    text-align: center
+}
+
 .title {
     padding-right: 10px;
 }
@@ -33,4 +37,17 @@ input {
 .vl {
     border-right: 1px solid black;
     padding-right: 5px;
-  }
+}
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.jobpicture {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
