@@ -1,0 +1,156 @@
+body {
+    background-color: #EAF4F9;
+}
+
+a {
+    display: inline;
+    padding: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 5px;
+}
+
+.header {
+    background-color: #C0C0C0;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 500px;
+  }
+
+#profile {
+    width: 2%;
+    height: 2%;
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+#searchbar {
+    float: right;
+    position: relative;
+    right: 6px;
+    top: 8px;
+}
+
+#submitbutton {
+    float: right;
+    position: relative;
+    right: 6px;
+    top: 8px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.everything-is-black {
+    color: black; 
+    text-decoration: none;
+
+}
+
+.everything-is-black-vl {
+    color: black; 
+    text-decoration: none;
+    border-left: 1px solid black;
+    height: 500px;
+}
+
+.rectangle-left {
+    width:600px;
+    height:200px;
+    border:1px solid #000;
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    margin: 15px 0px 15px 0px;
+    background-color: #C0C0C0;
+    
+}
+
+.rectangle-right {
+    width:600px;
+    height:200px;
+    border:1px solid #000;
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 10px;
+    margin: 15px 0px 15px 0px;
+    background-color: #C0C0C0;
+}
+
+.profilepic-left {
+    width: 200px;
+    height: 198px;
+    float: left;
+    position: relative;
+    border: 1px solid black;
+}
+
+.profilepic-right {
+    width: 200px;
+    height: 198px;
+    float: right;
+    position: relative;
+    right: 400px;
+    border: 1px solid black;
+}
+
+.profilename-left {
+    display: inline;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.profilename-right {
+    display: inline;
+    position: relative;
+    left: 205px;
+    top: 2px;
+}
+
+.profileinfo-left {
+    display: inline;
+    position: relative;
+    top: 25px;
+    left: 5px;
+}
+
+.profileinfo-right {
+    display: inline;
+    position: relative;
+    top: 23px;
+    left: 205px;
+}
+
+.profilecontact-left {
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+.profilecontact-right {
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 205px;
+}
+
+#alien {
+    width: 4%;
+    height: 4%;
+    position: relative;
+    top: 1000px;
+}
