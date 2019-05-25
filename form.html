@@ -6,27 +6,27 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <body id="container">
-    <form action="/wherever our backend is.php" id="box">
+    <div id="box">
         First name:<br>
-        <textarea name="jobdesc" cols="25" rows="1"></textarea>
+        <textarea id="FirstName" name="FirstName" cols="25" rows="1"></textarea>
         <br>
         Last name:<br>
-        <textarea name="jobdesc" cols="25" rows="1></textarea><br>
+        <textarea id="LastName" name="LastName" cols="25" rows="1"></textarea><br>
     Job title:<br>
-    <textarea name=" jobdesc" cols="70" rows="5"></textarea>
+    <textarea id="JobTitle" name="JobTitle" cols="70" rows="5"></textarea>
         <br>
         Job description:<br>
-        <textarea name="jobdesc" cols="70" rows="5"></textarea>
+        <textarea id="JobDesc" name="JobDesc" cols="70" rows="5"></textarea>
         <br>
         Job location:<br>
-        <textarea name="jobdesc" cols="25" rows="1"></textarea>
+        <textarea id="JobLoc" name="JobLoc" cols="25" rows="1"></textarea>
         <br>
         Job date:<br>
-        <textarea name="jobdesc" cols="25" rows="1"></textarea>
+        <textarea id="JobDate" name="JobDate" cols="25" rows="1"></textarea>
         <br>
         <br>
-        <input type="submit" value="Submit" class="button">
-    </form>
+        <input onclick="submitJobAJAX()" type="submit" value="Submit" class="button">
+    </div>
     <script src="js/form.js"></script>
 </body>
 </head>
