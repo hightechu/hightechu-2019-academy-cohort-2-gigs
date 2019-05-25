@@ -1,46 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<body  onload="typeWriter()">
-<div id="container">
-<div id="demo"></div>
-</div>
-<script>
-var i = 0;
-var txt = 'Gigs.com';
-var txt2 = 'One-off jobs made easy';
-var speed = 90;
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-	if (i == txt.length - 1 ) {
-	  speed = 2000;
-	}
-  }
-  else if(i<txt.length*2){
-      document.getElementById("demo").innerHTML = txt.substring(0,txt.length*2-i-1);
-	  speed = 90;
-  }
-   else if(i<txt.length*2+txt2.length){
-       speed = 90;
-       document.getElementById("demo").innerHTML += txt2.charAt(i-txt.length*2);
-		 
-   }
-   else if(i<txt.length*2+txt2.length*2){
-      speed = 90;
-      document.getElementById("demo").innerHTML = txt2.substring(0,txt2.length*2-i-1+txt.length*2);
-   }
-   else{i=-1, speed = 90;}
-      i++;
-    setTimeout(typeWriter, speed);
-	
-}
-
-</script>
-
+<body onload="typeWriter()">
+    <div id="height">
+        <img src="downarrow.png" id="arrow">
+        <div id="container"><a href="#directory"><img src="downarrow.png" id="arrow"></a></div>
+        <div id="directory">
+            <div id="downpagetext1"><a href="form.html">Post a Job</a></div>
+            <div id="downpagetext2">Find a Job</div>
+        </div>
+        <div id="container">
+            <div id="demo"></div>
+        </div>
+        <script src="js/javascript.js">
+        </script>
+    </div>
 </body>
 </head>
+
 </html>
