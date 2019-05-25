@@ -1,2 +1,2 @@
 var karen = "Karen";
-document.getElementById("karen").innerHTML = karen;
+document.getElementById("name").innerHTML = karen;
