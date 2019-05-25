@@ -65,9 +65,8 @@ h2 {
 }
 
 .rectangle-left {
-    width:600px;
-    height:200px;
-    border:1px solid #000;
+    width:608px;
+    height:198px;
     float: left;
     position: relative;
     left: 150px;
@@ -79,8 +78,7 @@ h2 {
 
 .rectangle-right {
     width:600px;
-    height:200px;
-    border:1px solid #000;
+    height:198px;
     float: right;
     position: relative;
     right: 150px;
@@ -94,7 +92,6 @@ h2 {
     height: 198px;
     float: left;
     position: relative;
-    border: 1px solid black;
 }
 
 .profilepic-right {
@@ -103,7 +100,6 @@ h2 {
     float: right;
     position: relative;
     right: 400px;
-    border: 1px solid black;
 }
 
 .profilename-left {
