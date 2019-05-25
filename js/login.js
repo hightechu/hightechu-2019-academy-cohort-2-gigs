@@ -4,7 +4,15 @@ function loginAJAX() {
 
     http_request.onreadystatechange = function() {
         //A new XMLHttpRequest object starts in state 0
-        
+        if (http_request.readyState == 1  ) {
+            console.log("Successfully called .open()");
+        }
+        if (http_request.readyState == 2  ) {
+            console.log("Successfully called .send()");
+        }
+        if (http_request.readyState == 3  ) {
+            console.log("The content is starting to come from the server");
+        }
         if (http_request.readyState == 4  ) {
             console.log("All the content from the server has been downloaded");
             var response = JSON.parse(http_request.responseText);

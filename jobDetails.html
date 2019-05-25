@@ -11,8 +11,7 @@
 <body>
 
     <hr>
-    <h1 class="title">Gigs.com</h1>
-    <a class="vl" href="index.html">Home</a>
+    <a class="title vl" href="index.html"><h1>Gigs.com</h1></a> 
     <a class="vl" href="https://en.wikipedia.org/wiki/Browsing">Browse</a>
     <a href="">Something</a>
     <a class="rightAlign" href="https://en.wikipedia.org/wiki/Profile"><img src="img/profilepicture.png" height="40px" width="40px" title="Profile"></a>
@@ -21,8 +20,13 @@
     <a class="back" href="">&lt;&lt; Back</a>
 
     <h2 class="jobtitle">Lawn Mowing</h2>
-    <img src="img/lawn.jpg" class="jobPicture" title="Lawn Mowing">
 
+    <div id="wrapTop">
+        <img class="profilePicture" src="img/karen.jpg" alt="karen profile picture">
+        <img class="jobPicture" src="img/lawn.jpg"  alt="Lawn Mowing">
+    </div>
+
+    <div id="wrapBottom">
     <div class="descriptionBox">
         <p>I want someone to mow my lawn</p>
         <p>Pay: $15/h</p>
@@ -31,14 +35,13 @@
         <p>You can contact me through email at <a href="whomsteverthisis@gmail.com">whomsteverthisis@gmail.com</a></p>
         <p>Requirements: Not much, just be able to use a lawn mower</p>
     </div>
-
-    <img class="profilePicture" src="img/karen.jpg" alt="karen profile picture">
-
     <div class="profileDescription">
         <p>Name: Karen</p>
         <p>Age: 43</p>
         <p>Relationship status: Single</p>
     </div>
+    </div>
+
 
     <script src="js/jobDetails.js"></script>
 </body>
