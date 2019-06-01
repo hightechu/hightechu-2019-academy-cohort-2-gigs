@@ -24,7 +24,7 @@ function loginAJAX() {
             else {
                 setCookie("id", response.id, response.ttl)
                 alert("Successfully logged in!");
-                loadDoc("data.html");
+                loadDoc("jobListings.html");
             }
         }
     }
