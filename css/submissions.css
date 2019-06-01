@@ -1,5 +1,6 @@
 body {
     background-color: #EAF4F9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -47,7 +48,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
@@ -65,41 +65,41 @@ h2 {
 }
 
 .rectangle-left {
-    width:608px;
-    height:198px;
+    width:615px;
+    height:205px;
     float: left;
     position: relative;
     left: 150px;
     top: 10px;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px 5px 0px;
     background-color: #C0C0C0;
     
 }
 
 .rectangle-right {
-    width:600px;
-    height:198px;
+    width:615px;
+    height:205px;
     float: right;
     position: relative;
     right: 150px;
     top: 10px;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px 5px 0px;
     background-color: #C0C0C0;
 }
 
 .profilepic-left {
     width: 200px;
-    height: 198px;
+    height: 205px;
     float: left;
     position: relative;
 }
 
 .profilepic-right {
     width: 200px;
-    height: 198px;
+    height: 205px;
     float: right;
     position: relative;
-    right: 400px;
+    right: 414px;
 }
 
 .profilename-left {
@@ -119,6 +119,7 @@ h2 {
 .profileinfo-left {
     display: inline;
     position: relative;
+    font-size: 15px;
     top: 25px;
     left: 5px;
 }
@@ -126,7 +127,7 @@ h2 {
 .profileinfo-right {
     display: inline;
     position: relative;
-    top: 23px;
+    top: 25px;
     left: 205px;
 }
 
