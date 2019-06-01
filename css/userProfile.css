@@ -54,3 +54,24 @@ h1 {
     display: inline;
     padding: 5px;
 }
+
+.pfpsubmit {
+    position: fixed;
+}
+
+.pfpimage {
+    position: relative;
+    padding-top: 10px;
+}
+
+.usersubmit {
+    position: fixed;
+    top: 675px;
+}
+
+.registerlink {
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
