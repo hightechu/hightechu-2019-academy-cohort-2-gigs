@@ -13,6 +13,13 @@ body {
 
 }
 
+.registerlink {
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+
 .everything-is-black-vl {
     color: black; 
     text-decoration: none;
@@ -55,23 +62,30 @@ h1 {
     padding: 5px;
 }
 
-.pfpsubmit {
-    position: fixed;
+#wrapJob {
+    margin: auto;
+    width: 1000px;
+    float: left;
 }
 
-.pfpimage {
-    position: relative;
-    padding-top: 10px;
+.job {
+    width:600px;
+    height:200px;
+    background-color: #C0C0C0;
+    margin-bottom: 20px;
+    float: left;
+    color: black;
 }
 
-.usersubmit {
-    position: fixed;
-    top: 675px;
+.job h3 {
+    margin-left: 15px;
 }
 
-.registerlink {
-    float: right;
-    position: relative;
-    top: 4px;
-    right: 4px;
+.picture {
+    height: 200px;
+    float: left;
+}
+
+.title {
+    text-decoration: underline;
 }
