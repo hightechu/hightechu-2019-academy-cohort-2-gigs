@@ -34,21 +34,21 @@
 </div>
 
 
-  <form action="/action_page.php">
+  <form>
     First name:<br>
-    <input type="text" name="firstname" placeholder="Name">
+    <input type="text" name="firstname" id="FirstName" placeholder="Name">
     <br><br>
     Last name:<br>
-    <input type="text" name="lastname" placeholder="Last">
+    <input type="text" name="lastname" id="LastName" placeholder="Last">
     <br><br>
     Email:<br>
-    <input type="text" name="email" placeholder="Email">
+    <input type="text" name="email" id="Email" placeholder="Email">
     <br><br>
     Phone Number:<br>
-    <input type="text" name="phone" placeholder="Phone Number">
+    <input type="text" name="phone" id="PhoneNumber" placeholder="Phone Number">
     <br><br>
     Description:<br>
-    <textarea rows="4" cols="50" placeholder="Self description"></textarea>
+    <textarea rows="4" cols="50" id="AboutMe" placeholder="Self description"></textarea>
     <br><br>
     Upload photo: <br>
     <input type="file" class="pfpsubmit" accept="image/*" onchange="readURL(this)">
@@ -56,7 +56,7 @@
     <div class="pfpimage">
     <img id="profilepicture" src="#" alt="your image">
     </div>
-    <input class="usersubmit" type="submit" value="Submit">
+    <input class="usersubmit" type="submit" onclick="userSubmit()" value="Submit">
   </form> 
 
 
