@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>User Profile</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/userProfile.css">
+</head>
+<body>
+
+<!--This is the header part-->
+<div class="header">
+    <hr>
+    <!--Title of Gigs.com w/ link to home-->
+    <h1><a href="https://en.wikipedia.org/wiki/Cat" class="everything-is-black">Gigs.com</a></h1>
+    <!--Additional links to other pages--> 
+    <a href="https://en.wikipedia.org/wiki/Cat" class="everything-is-black">Browse</a>
+    <a href="https://en.wikipedia.org/wiki/Cat" class="everything-is-black-vl">Something</a>
+    <a href="https://en.wikipedia.org/wiki/Cat" class="everything-is-black-vl">Something</a>
+    <!--Little profile picture on side-->
+    <a href="https://en.wikipedia.org/wiki/Cat"><img src="https://cdn.iconscout.com/icon/free/png-256/account-profile-avatar-man-circle-round-user-30452.png" id="profile" align="right"></a>
+    <!--Search bar and button-->
+    <input type="submit"  id="submitbutton">
+    <input type="text" placeholder="Search..." name="search" id="searchbar">
+    <hr>
+  </div>
+
+
+  <form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" placeholder="Name">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" placeholder="Last">
+    <br>
+    Email:<br>
+    <input type="text" name="email" placeholder="email">
+    <br>
+    Phone Number:<br>
+    <input type="text" name="phone" placeholder="Phone Number">
+    <br>
+    Description:<br>
+    <textarea rows="4" cols="50" placeholder="self description"></textarea>
+    <br>
+    Upload photo: <br>
+    <input type="file" name="pfp" accept="image/*">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+
+
+    <script src="js/userProfile.js"></script>
+</body>
+</html>

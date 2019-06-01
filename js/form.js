@@ -1,5 +1,5 @@
 function submitJobAJAX() {
-    var location = "http://localhost:3000/api/jobs";
+    var location = "http://localhost:3000/api/Forms";
     var http_request = new XMLHttpRequest();
 
     http_request.onreadystatechange = function() {
@@ -21,18 +21,21 @@ function submitJobAJAX() {
             }
             else {
                 alert("Job created successfully!");
+                window.location = "jobListings.html";
             }
         }
     }
 
 
     var jsonObj = new Object();
-    jsonObj.FistName=document.getElementById("FirstName").value;
-    jsonObj.LastName=document.getElementById("LastName").value;
-    jsonObj.JobTitle=document.getElementById("JobTitle").value;
-    jsonObj.JobDesc=document.getElementById("JobDesc").value;
-    jsonObj.JobLoc=document.getElementById("JobLoc").value;
-    jsonObj.JobDate=document.getElementById("JobDate").value;
+    jsonObj.firstname=document.getElementById("firstname").value;
+    jsonObj.lastname=document.getElementById("lastname").value;
+    jsonObj.jobtitle=document.getElementById("jobtitle").value;
+    jsonObj.jobdescription=document.getElementById("jobdescription").value;
+    jsonObj.joblocation=document.getElementById("joblocation").value;
+    jsonObj.jobdate=document.getElementById("jobdate").value;
+    jsonObj.jobpay=document.getElementById("jobpay").value;
+    
     postData = JSON.stringify(jsonObj);
     http_request.open("POST", location, true);
     http_request.setRequestHeader("Content-type", "application/json");
