@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html>
 
+<html>
+       
 <head>
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+</head>
 <body id="container">
-    <div id="box">
+
+
+    <form id="box">
         First name:<br>
-        <textarea id="FirstName" name="FirstName" cols="25" rows="1"></textarea>
+        <textarea id="firstname" name="firstname" cols="25" rows="1"></textarea>
         <br>
         Last name:<br>
-        <textarea id="LastName" name="LastName" cols="25" rows="1"></textarea><br>
-    Job title:<br>
-    <textarea id="JobTitle" name="JobTitle" cols="70" rows="5"></textarea>
+        <textarea name="lastname" id="lastname" cols="25" rows="1"></textarea><br>
+        Job title:<br>
+        <textarea name=" jobtitle" id="jobtitle" cols="70" rows="5"></textarea>
         <br>
         Job description:<br>
-        <textarea id="JobDesc" name="JobDesc" cols="70" rows="5"></textarea>
+        <textarea name="jobdescription" id="jobdescription" cols="70" rows="5"></textarea>  
+        <br>
+        Job pay: <br>
+        <textarea name="jobpay" id="jobpay" cols="25" rows="1"></textarea>
         <br>
         Job location:<br>
-        <textarea id="JobLoc" name="JobLoc" cols="25" rows="1"></textarea>
+        <textarea name="joblocation" id="joblocation" cols="25" rows="1"></textarea>
         <br>
         Job date:<br>
-        <textarea id="JobDate" name="JobDate" cols="25" rows="1"></textarea>
+        <textarea name="jobdate" id="jobdate" cols="25" rows="1"></textarea>
         <br>
         <br>
-        <input onclick="submitJobAJAX()" type="submit" value="Submit" class="button">
-    </div>
+      
+        <input onclick="submitJobAJAX()" value="Submit" class="button">
+    </form>
+    <script src="js/cookies.js"></script>
     <script src="js/form.js"></script>
 </body>
-</head>
 </html>
