@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>User Profile</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/userProfile.css">
+
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+
+
+</head>
+<body>
+
+<!--This is the header part-->
+<div class="header">
+  <hr>
+  <!--Title of Gigs.com w/ link to home-->
+  <h1><a href="index.html" class="everything-is-black">Gigs.com</a></h1>
+  <!--Additional links to other pages--> 
+  <a href="jobListings.html" class="everything-is-black">Browse</a>
+  <a href="form.html" class="everything-is-black-vl">Create a Job</a>
+  <a href="https://en.wikipedia.org/wiki/Cat" class="everything-is-black-vl">Something</a>
+  <!--Little profile picture on side-->
+  <a href="userProfile.html"><img src="https://cdn.iconscout.com/icon/free/png-256/account-profile-avatar-man-circle-round-user-30452.png" id="profile" align="right"></a>
+  <a href="register.html" class="registerlink everything-is-black">Create an Account</a>
+  <!--Search bar and button-->
+  <input type="submit"  id="submitbutton">
+  <input type="text" placeholder="Search..." name="search" id="searchbar">
+  <hr>
+</div>
+
+
+  <form>
+    First name:<br>
+    <input type="text" name="firstname" id="FirstName" placeholder="Name">
+    <br><br>
+    Last name:<br>
+    <input type="text" name="lastname" id="LastName" placeholder="Last">
+    <br><br>
+    Email:<br>
+    <input type="text" name="email" id="Email" placeholder="Email">
+    <br><br>
+    Phone Number:<br>
+    <input type="text" name="phone" id="PhoneNumber" placeholder="Phone Number">
+    <br><br>
+    Description:<br>
+    <textarea rows="4" cols="50" id="AboutMe" placeholder="Self description"></textarea>
+    <br><br>
+    Upload photo: <br>
+    <input type="file" class="pfpsubmit" accept="image/*" onchange="readURL(this)">
+    <br>
+    <div class="pfpimage">
+    <img id="profilepicture" src="#" alt="your image">
+    </div>
+    <input class="usersubmit" type="submit" onclick="userSubmit()" value="Submit">
+  </form> 
+
+  <script src="js/helper.js"></script>
+  <script src="js/userProfile.js"></script>
+</body>
+</html>
