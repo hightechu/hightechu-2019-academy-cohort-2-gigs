@@ -1,0 +1,36 @@
+{
+  "name": "Form",
+  "plural": "Forms",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "jobtitle": {
+      "type": "string"
+    },
+    "jobdescription": {
+      "type": "string"
+    },
+    "joblocation": {
+      "type": "string"
+    },
+    "jobdate": {
+      "type": "string"
+    },
+    "jobpay": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
