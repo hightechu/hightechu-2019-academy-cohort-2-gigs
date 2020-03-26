@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-cohort2-group-fours.herokuapp.com
+https://hightechu-gigs.herokuapp.com
 
 ## Mini Pitch
 
@@ -36,15 +36,15 @@ It can sometimes be a challenge to find ways to make some money when you're a te
 
 ## Promo
 
-![Promo of Website](promo.png)
+![Promo of Website](img/promo.png)
 
-![Promo of Website](promo-1.png)
+![Promo of Website](img/promo-1.png)
 
-![Promo of Website](promo-2.png)
+![Promo of Website](img/promo-2.png)
 
-![Promo of Website](promo-3.png)
+![Promo of Website](img/promo-3.png)
 
-![Promo of Website](promo-4.png)
+![Promo of Website](img/promo-4.png)
 
 ## Made with:
 
