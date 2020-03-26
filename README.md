@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-cohort2-group-fours.herokuapp.com
+https://hightechu-gigs.herokuapp.com
 
 ## Mini Pitch
 
