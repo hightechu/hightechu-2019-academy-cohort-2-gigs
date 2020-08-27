@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-gigs.herokuapp.com
+[Live Demo](https://hightechu-gigs.herokuapp.com)
 
 ## Mini Pitch
 
